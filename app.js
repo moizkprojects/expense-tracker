@@ -101,12 +101,12 @@ async function initializeApp() {
 
     hideLocationResults();
     updateEverything();
-    setSaveStatus(`FY2026 rates ready (${state.locations.length} locations). Changes save automatically.`);
-    elements.locationHelp.textContent = "Start typing to search workbook locations, or use OpenStreetMap for city/county matching.";
+    setSaveStatus(`Rates ready (${state.locations.length} locations).`);
+    elements.locationHelp.textContent = "Search a city, then run City Search to map it to a FY2026 rate.";
   } catch (error) {
     console.error(error);
-    setSaveStatus("Rates could not be loaded.");
-    elements.locationHelp.textContent = "FY2026 rates could not be loaded on this browser.";
+    setSaveStatus("Rate file unavailable.");
+    elements.locationHelp.textContent = "Could not load FY2026 workbook data on this browser.";
   }
 }
 
@@ -176,8 +176,14 @@ function bindEvents() {
 
     if (elements.locationResults.classList.contains("hidden")) {
       if (event.key === "Enter") {
-        const selectedLocation = getSelectedLocation();
-        if (!selectedLocation && elements.locationInput.value.trim()) {
+        const exactTypedLocation = findExactTypedLocation();
+        if (exactTypedLocation) {
+          event.preventDefault();
+          pickLocation(exactTypedLocation.label);
+          return;
+        }
+
+        if (elements.locationInput.value.trim()) {
           event.preventDefault();
           void attemptOsmCountyLookup();
         }
@@ -209,6 +215,13 @@ function bindEvents() {
       if (selectedLocation) {
         event.preventDefault();
         pickLocation(selectedLocation.label);
+        return;
+      }
+
+      const exactTypedLocation = findExactTypedLocation();
+      if (exactTypedLocation) {
+        event.preventDefault();
+        pickLocation(exactTypedLocation.label);
         return;
       }
 
@@ -485,6 +498,19 @@ function getSelectedLocation() {
   return state.locationsByKey.get(state.current.locationKey) || null;
 }
 
+function findExactTypedLocation() {
+  if (!state.workbookReady) {
+    return null;
+  }
+
+  const query = elements.locationInput.value.trim().toLowerCase();
+  if (!query) {
+    return null;
+  }
+
+  return state.locationsByLabel.get(query) || null;
+}
+
 async function attemptOsmCountyLookup() {
   if (!state.workbookReady || state.isOsmLookupRunning) {
     return;
@@ -492,7 +518,7 @@ async function attemptOsmCountyLookup() {
 
   const query = elements.locationInput.value.trim();
   if (!query) {
-    elements.locationHelp.textContent = "Enter a city first, then click Find By City/County.";
+    elements.locationHelp.textContent = "Enter a city or location first.";
     return;
   }
 
@@ -502,10 +528,16 @@ async function attemptOsmCountyLookup() {
     return;
   }
 
+  const exactTypedLocation = findExactTypedLocation();
+  if (exactTypedLocation) {
+    pickLocation(exactTypedLocation.label);
+    return;
+  }
+
   hideLocationResults();
   setOsmLookupBusy(true);
-  setSaveStatus("Searching OpenStreetMap...");
-  elements.locationHelp.textContent = "Searching OpenStreetMap and matching county to the FY2026 workbook...";
+  setSaveStatus("Searching city...");
+  elements.locationHelp.textContent = "Looking up city with OpenStreetMap and matching FY2026 rates.";
 
   try {
     const resolution = await resolveWorkbookLocationFromOsm(query);
@@ -514,9 +546,9 @@ async function attemptOsmCountyLookup() {
       pickLocation(resolution.location.label);
 
       if (resolution.matchType === "county") {
-        elements.locationHelp.textContent = `Matched by county (${resolution.countyDisplay || "unknown county"}), ${resolution.stateCode}.`;
+        elements.locationHelp.textContent = `Matched by county: ${resolution.countyDisplay || "Unknown"} (${resolution.stateCode}).`;
       } else {
-        elements.locationHelp.textContent = `Matched by city/state (${resolution.cityDisplay || query}), ${resolution.stateCode}.`;
+        elements.locationHelp.textContent = `Matched by city: ${resolution.cityDisplay || query} (${resolution.stateCode}).`;
       }
 
       setSaveStatus(`Mapped "${query}" to ${resolution.location.label}.`);
@@ -525,18 +557,18 @@ async function attemptOsmCountyLookup() {
 
     if (resolution.standardConus) {
       pickLocation(resolution.standardConus.label);
-      elements.locationHelp.textContent = "No specific county match found. Applied Standard CONUS as fallback.";
-      setSaveStatus(`No county match for "${query}". Applied Standard CONUS.`);
+      elements.locationHelp.textContent = "No city/county workbook match. Standard CONUS applied.";
+      setSaveStatus(`No exact match for "${query}". Standard CONUS applied.`);
       return;
     }
 
-    elements.locationHelp.textContent = "No workbook match found from OpenStreetMap. Try another nearby city.";
-    setSaveStatus("No workbook match found from OpenStreetMap.");
+    elements.locationHelp.textContent = "No workbook match found. Try another nearby city.";
+    setSaveStatus("No workbook match found.");
   } catch (error) {
     console.error(error);
     const message = error && error.name === "AbortError"
-      ? "OpenStreetMap lookup timed out. Please try again."
-      : "OpenStreetMap lookup failed. Check connection and try again.";
+      ? "City search timed out. Try again."
+      : "City search failed. Check connection.";
     elements.locationHelp.textContent = message;
     setSaveStatus(message);
   } finally {
@@ -552,8 +584,8 @@ function setOsmLookupBusy(isBusy) {
 
   elements.osmLookup.disabled = isBusy;
   elements.osmLookup.textContent = isBusy
-    ? "Finding County Match..."
-    : "Find By City/County (OpenStreetMap)";
+    ? "Searching..."
+    : "City Search (OpenStreetMap)";
 }
 
 async function resolveWorkbookLocationFromOsm(query) {
@@ -663,6 +695,17 @@ function mapOsmToWorkbookLocation(result, typedQuery) {
   const cityNormalized = normalizeGeoName(cityDisplay);
   const typedNormalized = normalizeGeoName(typedQuery);
 
+  const cityLocation = findBestCityLocation(stateLocations, cityNormalized || typedNormalized, typedNormalized);
+  if (cityLocation) {
+    return {
+      location: cityLocation,
+      matchType: "city",
+      countyDisplay,
+      cityDisplay,
+      stateCode
+    };
+  }
+
   if (countyNormalized) {
     const countyLocation = findBestCountyLocation(stateLocations, countyNormalized, cityNormalized, typedNormalized);
     if (countyLocation) {
@@ -674,17 +717,6 @@ function mapOsmToWorkbookLocation(result, typedQuery) {
         stateCode
       };
     }
-  }
-
-  const cityLocation = findBestCityLocation(stateLocations, cityNormalized || typedNormalized, typedNormalized);
-  if (cityLocation) {
-    return {
-      location: cityLocation,
-      matchType: "city",
-      countyDisplay,
-      cityDisplay,
-      stateCode
-    };
   }
 
   return null;
@@ -747,14 +779,19 @@ function findBestCityLocation(stateLocations, cityNormalized, typedNormalized) {
   stateLocations.forEach((location) => {
     const destinationNormalized = normalizeGeoName(location.destination);
     const labelNormalized = normalizeGeoName(location.label);
+    const destinationTokens = getDestinationTokensForLocation(location);
     let score = 0;
 
-    if (target && (destinationNormalized.includes(target) || target.includes(destinationNormalized))) {
-      score += 80;
+    if (destinationTokens.includes(target)) {
+      score += 180;
+    } else if (target && destinationNormalized.includes(target)) {
+      score += 120;
+    } else if (target && target.length >= 4 && target.includes(destinationNormalized)) {
+      score += 70;
     }
 
-    if (target && (labelNormalized.includes(target) || target.includes(labelNormalized))) {
-      score += 50;
+    if (target && labelNormalized.includes(target)) {
+      score += 40;
     }
 
     if (typedNormalized && labelNormalized.includes(typedNormalized)) {
@@ -768,6 +805,25 @@ function findBestCityLocation(stateLocations, cityNormalized, typedNormalized) {
   });
 
   return bestLocation;
+}
+
+function getDestinationTokensForLocation(location) {
+  const source = String(location.destination || "").trim();
+  if (!source) {
+    return [];
+  }
+
+  const tokens = source
+    .split(/\s*\/\s*|,|;|\band\b/gi)
+    .map((part) => normalizeGeoName(part))
+    .filter(Boolean);
+
+  if (!tokens.length) {
+    const normalized = normalizeGeoName(source);
+    return normalized ? [normalized] : [];
+  }
+
+  return Array.from(new Set(tokens));
 }
 
 function getCountyTokensForLocation(location) {
@@ -853,16 +909,16 @@ function firstNonEmpty(values) {
 
 function renderRateCard(rateRecord, location) {
   if (!location || !rateRecord) {
-    elements.rateTitle.textContent = "Select a workbook location";
-    elements.rateSeason.textContent = "Choose an exact workbook location to see the matching seasonal rate.";
+    elements.rateTitle.textContent = "No Matched Rate";
+    elements.rateSeason.textContent = "Search a city and run City Search, or pick a workbook location.";
     elements.baseRate.textContent = "$0.00";
     elements.effectiveRate.textContent = "$0.00";
     elements.lodgingRate.textContent = "$0.00";
 
     if (elements.locationInput.value.trim()) {
-      elements.locationHelp.textContent = "Select a suggestion, or click Find By City/County to map a non-workbook city via OpenStreetMap.";
+      elements.locationHelp.textContent = "Use City Search to map this city to workbook city/county.";
     } else {
-      elements.locationHelp.textContent = "Start typing, then tap a workbook location from the list or use Find By City/County.";
+      elements.locationHelp.textContent = "Search any US city, then map it with City Search.";
     }
 
     return;
@@ -885,8 +941,8 @@ function renderSummary(location, rateRecord, effectiveRate, totalSpent, differen
 
   if (!location || !rateRecord) {
     elements.summaryCard.classList.add("neutral");
-    elements.summaryTitle.textContent = "Waiting for date and workbook location";
-    elements.summaryCaption.textContent = "Select a valid location to calculate allowed M&IE.";
+    elements.summaryTitle.textContent = "Set Date + Location";
+    elements.summaryCaption.textContent = "Daily budget appears after a city/workbook match.";
     return;
   }
 
@@ -1022,7 +1078,7 @@ function upsertLedgerInState(ledger) {
 
 function renderHistory() {
   if (!state.ledgers.length) {
-    elements.history.innerHTML = '<div class="empty-state">Saved ledgers appear here after selecting a date and workbook location.</div>';
+    elements.history.innerHTML = '<div class="empty-state">Saved days will appear here.</div>';
     return;
   }
 
@@ -1047,7 +1103,7 @@ function renderHistory() {
           <span class="history-difference">${differenceLabel}</span>
           <span>${ledger.travelDay ? "Travel day" : "Full day"}</span>
         </div>
-        <button class="ghost-button" type="button" data-open-ledger="${escapeHtml(ledger.id)}">Open Ledger</button>
+        <button class="ghost-button" type="button" data-open-ledger="${escapeHtml(ledger.id)}">Open</button>
         <button class="delete-button" type="button" data-delete-ledger="${escapeHtml(ledger.id)}">Delete</button>
       </div>
     `;
@@ -1352,7 +1408,7 @@ function renderLocationResults(query, preserveIndex = false, forceShow = false) 
   }).join("");
 
   if (!state.visibleLocationResults.length) {
-    elements.locationResults.innerHTML = '<div class="location-empty">No workbook match. Press Enter or use Find By City/County.</div>';
+    elements.locationResults.innerHTML = '<div class="location-empty">No workbook match. Use City Search to map it.</div>';
   }
 
   Array.from(elements.locationResults.querySelectorAll("[data-pick-location]")).forEach((button) => {
