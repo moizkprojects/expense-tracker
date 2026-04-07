@@ -14,6 +14,7 @@ const state = {
   current: null,
   isHydrating: false,
   saveTimer: null,
+  hasManualLocationNavigation: false,
   isOsmLookupRunning: false,
   osmLookupAbortController: null
 };
@@ -145,12 +146,14 @@ function bindEvents() {
   });
 
   elements.locationInput.addEventListener("input", () => {
+    state.hasManualLocationNavigation = false;
     renderLocationResults(elements.locationInput.value, false, true);
     switchLedgerIfNeeded();
     updateEverything();
   });
 
   elements.locationInput.addEventListener("focus", () => {
+    state.hasManualLocationNavigation = false;
     renderLocationResults(elements.locationInput.value, false, true);
   });
 
@@ -183,6 +186,7 @@ function bindEvents() {
 
     if (event.key === "ArrowDown") {
       event.preventDefault();
+      state.hasManualLocationNavigation = true;
       state.activeLocationResultIndex = Math.min(
         state.activeLocationResultIndex + 1,
         state.visibleLocationResults.length - 1
@@ -193,24 +197,31 @@ function bindEvents() {
 
     if (event.key === "ArrowUp") {
       event.preventDefault();
+      state.hasManualLocationNavigation = true;
       state.activeLocationResultIndex = Math.max(state.activeLocationResultIndex - 1, 0);
       renderLocationResults(elements.locationInput.value, true, true);
       return;
     }
 
     if (event.key === "Enter") {
-      if (state.visibleLocationResults.length) {
+      const selectedLocation = getSelectedLocation();
+      if (selectedLocation) {
+        event.preventDefault();
+        pickLocation(selectedLocation.label);
+        return;
+      }
+
+      if (state.hasManualLocationNavigation && state.visibleLocationResults.length) {
         event.preventDefault();
         const resolvedIndex = state.activeLocationResultIndex >= 0 ? state.activeLocationResultIndex : 0;
-        const picked = state.visibleLocationResults[resolvedIndex];
-        if (picked) {
-          pickLocation(picked.label);
+        const navigated = state.visibleLocationResults[resolvedIndex];
+        if (navigated) {
+          pickLocation(navigated.label);
         }
         return;
       }
 
-      const selectedLocation = getSelectedLocation();
-      if (!selectedLocation && elements.locationInput.value.trim()) {
+      if (elements.locationInput.value.trim()) {
         event.preventDefault();
         void attemptOsmCountyLookup();
       }
@@ -475,22 +486,7 @@ function getSelectedLocation() {
     return null;
   }
 
-  const exact = state.locationsByLabel.get(query);
-  if (exact) {
-    return exact;
-  }
-
-  const startsWithMatches = state.locations.filter((location) => location.label.toLowerCase().startsWith(query));
-  if (startsWithMatches.length === 1) {
-    return startsWithMatches[0];
-  }
-
-  const containsMatches = state.locations.filter((location) => location.label.toLowerCase().includes(query));
-  if (containsMatches.length === 1) {
-    return containsMatches[0];
-  }
-
-  return null;
+  return state.locationsByLabel.get(query) || null;
 }
 
 async function attemptOsmCountyLookup() {
@@ -1392,6 +1388,7 @@ function bindLocationPickEvents(button) {
 
 function pickLocation(label) {
   elements.locationInput.value = label;
+  state.hasManualLocationNavigation = false;
   hideLocationResults();
   switchLedgerIfNeeded();
   updateEverything();
@@ -1399,6 +1396,7 @@ function pickLocation(label) {
 
 function hideLocationResults() {
   state.activeLocationResultIndex = -1;
+  state.hasManualLocationNavigation = false;
   elements.locationResults.classList.add("hidden");
 }
 
