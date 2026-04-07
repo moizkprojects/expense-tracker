@@ -147,6 +147,7 @@ function bindEvents() {
 
   elements.locationInput.addEventListener("input", () => {
     state.hasManualLocationNavigation = false;
+    clearSelectedLocationIfTyping();
     renderLocationResults(elements.locationInput.value, false, true);
     switchLedgerIfNeeded();
     updateEverything();
@@ -477,16 +478,11 @@ function hydrateFromLedger(ledger) {
 }
 
 function getSelectedLocation() {
-  if (!state.workbookReady) {
+  if (!state.workbookReady || !state.current || !state.current.locationKey) {
     return null;
   }
 
-  const query = elements.locationInput.value.trim().toLowerCase();
-  if (!query) {
-    return null;
-  }
-
-  return state.locationsByLabel.get(query) || null;
+  return state.locationsByKey.get(state.current.locationKey) || null;
 }
 
 async function attemptOsmCountyLookup() {
@@ -1387,7 +1383,19 @@ function bindLocationPickEvents(button) {
 }
 
 function pickLocation(label) {
-  elements.locationInput.value = label;
+  const normalizedLabel = String(label || "").trim().toLowerCase();
+  const picked = state.locationsByLabel.get(normalizedLabel) || null;
+
+  if (picked) {
+    state.current.locationKey = picked.key;
+    state.current.locationLabel = picked.label;
+    elements.locationInput.value = picked.label;
+  } else {
+    state.current.locationKey = "";
+    state.current.locationLabel = String(label || "").trim();
+    elements.locationInput.value = String(label || "").trim();
+  }
+
   state.hasManualLocationNavigation = false;
   hideLocationResults();
   switchLedgerIfNeeded();
@@ -1398,6 +1406,24 @@ function hideLocationResults() {
   state.activeLocationResultIndex = -1;
   state.hasManualLocationNavigation = false;
   elements.locationResults.classList.add("hidden");
+}
+
+function clearSelectedLocationIfTyping() {
+  if (!state.current || state.isHydrating || !state.current.locationKey) {
+    return;
+  }
+
+  const selected = state.locationsByKey.get(state.current.locationKey);
+  if (!selected) {
+    state.current.locationKey = "";
+    return;
+  }
+
+  const typed = elements.locationInput.value.trim().toLowerCase();
+  if (typed !== selected.label.toLowerCase()) {
+    state.current.locationKey = "";
+    state.current.locationLabel = elements.locationInput.value.trim();
+  }
 }
 
 function resolveRateRecord(serviceDate, locationKey) {
