@@ -182,8 +182,7 @@ h3 {
 .muted,
 .field-help,
 .history-meta,
-.entry-note,
-.lookup-note {
+.entry-note {
   color: var(--muted);
 }
 
@@ -230,29 +229,6 @@ h3 {
 
 .location-field {
   position: relative;
-}
-
-.location-lookup-row {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.lookup-button {
-  min-height: 40px;
-  padding: 9px 14px;
-  font-size: 0.86rem;
-}
-
-.lookup-button:disabled {
-  opacity: 0.7;
-  cursor: not-allowed;
-}
-
-.lookup-note {
-  font-size: 0.79rem;
 }
 
 .location-results {
@@ -612,11 +588,4 @@ button:hover {
     margin-top: 6px;
   }
 
-  .location-lookup-row {
-    align-items: flex-start;
-  }
-
-  .lookup-button {
-    width: 100%;
-  }
 }

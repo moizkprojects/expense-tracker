@@ -105,7 +105,7 @@ async function initializeApp() {
     hideLocationResults();
     updateEverything();
     setSaveStatus(`Rates ready (${state.locations.length} locations).`);
-    elements.locationHelp.textContent = "Search a city, then run City Search to map it to a FY2026 rate.";
+    elements.locationHelp.textContent = "Search a city and pick a result to map county to FY2026 rates.";
   } catch (error) {
     console.error(error);
     setSaveStatus("Rate file unavailable.");
@@ -117,7 +117,6 @@ function cacheElements() {
   elements.serviceDate = document.getElementById("service-date");
   elements.locationInput = document.getElementById("location-input");
   elements.locationResults = document.getElementById("location-results");
-  elements.osmLookup = document.getElementById("osm-lookup");
   elements.travelDay = document.getElementById("travel-day");
   elements.locationHelp = document.getElementById("location-help");
   elements.baseRate = document.getElementById("base-rate");
@@ -260,12 +259,6 @@ function bindEvents() {
   elements.travelDay.addEventListener("change", () => {
     updateEverything();
   });
-
-  if (elements.osmLookup) {
-    elements.osmLookup.addEventListener("click", () => {
-      void attemptOsmCountyLookup();
-    });
-  }
 
   elements.addEntry.addEventListener("click", () => {
     state.current.entries.push(createEntry());
@@ -521,7 +514,7 @@ async function attemptOsmCountyLookup(preferredOsmResult = null, queryOverride =
 
   const query = String(queryOverride || elements.locationInput.value || "").trim();
   if (!query) {
-    elements.locationHelp.textContent = "Enter a city or location first.";
+    elements.locationHelp.textContent = "Enter a city first.";
     return;
   }
 
@@ -539,8 +532,8 @@ async function attemptOsmCountyLookup(preferredOsmResult = null, queryOverride =
 
   hideLocationResults();
   setOsmLookupBusy(true);
-  setSaveStatus("Searching city...");
-  elements.locationHelp.textContent = "Looking up city with OpenStreetMap and matching FY2026 rates.";
+  setSaveStatus("Searching OpenStreetMap...");
+  elements.locationHelp.textContent = "Finding county and matching FY2026 workbook rates.";
 
   try {
     const resolution = await resolveWorkbookLocationFromOsm(query, preferredOsmResult);
@@ -548,11 +541,7 @@ async function attemptOsmCountyLookup(preferredOsmResult = null, queryOverride =
     if (resolution.location) {
       pickLocation(resolution.location.label);
 
-      if (resolution.matchType === "county") {
-        elements.locationHelp.textContent = `Matched by county: ${resolution.countyDisplay || "Unknown"} (${resolution.stateCode}).`;
-      } else {
-        elements.locationHelp.textContent = `Matched by city: ${resolution.cityDisplay || query} (${resolution.stateCode}).`;
-      }
+      elements.locationHelp.textContent = `Matched by county: ${resolution.countyDisplay || "Unknown"} (${resolution.stateCode}).`;
 
       setSaveStatus(`Mapped "${query}" to ${resolution.location.label}.`);
       return;
@@ -560,18 +549,18 @@ async function attemptOsmCountyLookup(preferredOsmResult = null, queryOverride =
 
     if (resolution.standardConus) {
       pickLocation(resolution.standardConus.label);
-      elements.locationHelp.textContent = "No city/county workbook match. Standard CONUS applied.";
+      elements.locationHelp.textContent = "No county workbook match. Standard CONUS applied.";
       setSaveStatus(`No exact match for "${query}". Standard CONUS applied.`);
       return;
     }
 
-    elements.locationHelp.textContent = "No workbook match found. Try another nearby city.";
-    setSaveStatus("No workbook match found.");
+    elements.locationHelp.textContent = "No county workbook match found. Try another nearby city.";
+    setSaveStatus("No county workbook match found.");
   } catch (error) {
     console.error(error);
     const message = error && error.name === "AbortError"
-      ? "City search timed out. Try again."
-      : "City search failed. Check connection.";
+      ? "Location lookup timed out. Try again."
+      : "Location lookup failed. Check connection.";
     elements.locationHelp.textContent = message;
     setSaveStatus(message);
   } finally {
@@ -581,14 +570,6 @@ async function attemptOsmCountyLookup(preferredOsmResult = null, queryOverride =
 
 function setOsmLookupBusy(isBusy) {
   state.isOsmLookupRunning = isBusy;
-  if (!elements.osmLookup) {
-    return;
-  }
-
-  elements.osmLookup.disabled = isBusy;
-  elements.osmLookup.textContent = isBusy
-    ? "Searching..."
-    : "City Search (OpenStreetMap)";
 }
 
 async function resolveWorkbookLocationFromOsm(query, preferredOsmResult = null) {
@@ -786,28 +767,19 @@ function mapOsmToWorkbookLocation(result, typedQuery) {
   const cityNormalized = normalizeGeoName(cityDisplay);
   const typedNormalized = normalizeGeoName(typedQuery);
 
-  const cityLocation = findBestCityLocation(stateLocations, cityNormalized || typedNormalized, typedNormalized);
-  if (cityLocation) {
+  if (!countyNormalized) {
+    return null;
+  }
+
+  const countyLocation = findBestCountyLocation(stateLocations, countyNormalized, cityNormalized, typedNormalized);
+  if (countyLocation) {
     return {
-      location: cityLocation,
-      matchType: "city",
+      location: countyLocation,
+      matchType: "county",
       countyDisplay,
       cityDisplay,
       stateCode
     };
-  }
-
-  if (countyNormalized) {
-    const countyLocation = findBestCountyLocation(stateLocations, countyNormalized, cityNormalized, typedNormalized);
-    if (countyLocation) {
-      return {
-        location: countyLocation,
-        matchType: "county",
-        countyDisplay,
-        cityDisplay,
-        stateCode
-      };
-    }
   }
 
   return null;
@@ -856,65 +828,6 @@ function findBestCountyLocation(stateLocations, countyNormalized, cityNormalized
   });
 
   return bestLocation;
-}
-
-function findBestCityLocation(stateLocations, cityNormalized, typedNormalized) {
-  if (!cityNormalized && !typedNormalized) {
-    return null;
-  }
-
-  let bestLocation = null;
-  let bestScore = 0;
-  const target = cityNormalized || typedNormalized;
-
-  stateLocations.forEach((location) => {
-    const destinationNormalized = normalizeGeoName(location.destination);
-    const labelNormalized = normalizeGeoName(location.label);
-    const destinationTokens = getDestinationTokensForLocation(location);
-    let score = 0;
-
-    if (destinationTokens.includes(target)) {
-      score += 180;
-    } else if (target && destinationNormalized.includes(target)) {
-      score += 120;
-    } else if (target && target.length >= 4 && target.includes(destinationNormalized)) {
-      score += 70;
-    }
-
-    if (target && labelNormalized.includes(target)) {
-      score += 40;
-    }
-
-    if (typedNormalized && labelNormalized.includes(typedNormalized)) {
-      score += 8;
-    }
-
-    if (score > bestScore) {
-      bestScore = score;
-      bestLocation = location;
-    }
-  });
-
-  return bestLocation;
-}
-
-function getDestinationTokensForLocation(location) {
-  const source = String(location.destination || "").trim();
-  if (!source) {
-    return [];
-  }
-
-  const tokens = source
-    .split(/\s*\/\s*|,|;|\band\b/gi)
-    .map((part) => normalizeGeoName(part))
-    .filter(Boolean);
-
-  if (!tokens.length) {
-    const normalized = normalizeGeoName(source);
-    return normalized ? [normalized] : [];
-  }
-
-  return Array.from(new Set(tokens));
 }
 
 function getCountyTokensForLocation(location) {
@@ -1001,15 +914,15 @@ function firstNonEmpty(values) {
 function renderRateCard(rateRecord, location) {
   if (!location || !rateRecord) {
     elements.rateTitle.textContent = "No Matched Rate";
-    elements.rateSeason.textContent = "Search a city and run City Search, or pick a workbook location.";
+    elements.rateSeason.textContent = "Search a US city and pick a result to load county-matched rates.";
     elements.baseRate.textContent = "$0.00";
     elements.effectiveRate.textContent = "$0.00";
     elements.lodgingRate.textContent = "$0.00";
 
     if (elements.locationInput.value.trim()) {
-      elements.locationHelp.textContent = "Use City Search to map this city to workbook city/county.";
+      elements.locationHelp.textContent = "Press Enter or pick a city result to map county to workbook rates.";
     } else {
-      elements.locationHelp.textContent = "Search any US city, then map it with City Search.";
+      elements.locationHelp.textContent = "Search any US city to match county and load FY2026 rates.";
     }
 
     return;
@@ -1020,7 +933,7 @@ function renderRateCard(rateRecord, location) {
   elements.baseRate.textContent = formatMoney(rateRecord.mieRate);
   elements.effectiveRate.textContent = formatMoney(state.current.travelDay ? roundCurrency(rateRecord.mieRate * 0.75) : rateRecord.mieRate);
   elements.lodgingRate.textContent = formatMoney(rateRecord.lodgingRate);
-  elements.locationHelp.textContent = "Workbook match found. Daily calculations now use FY2026 M&IE.";
+  elements.locationHelp.textContent = "County workbook match found. Daily calculations now use FY2026 M&IE.";
 }
 
 function renderSummary(location, rateRecord, effectiveRate, totalSpent, difference) {
@@ -1033,7 +946,7 @@ function renderSummary(location, rateRecord, effectiveRate, totalSpent, differen
   if (!location || !rateRecord) {
     elements.summaryCard.classList.add("neutral");
     elements.summaryTitle.textContent = "Set Date + Location";
-    elements.summaryCaption.textContent = "Daily budget appears after a city/workbook match.";
+    elements.summaryCaption.textContent = "Daily budget appears after county/workbook match.";
     return;
   }
 
@@ -1542,7 +1455,7 @@ function renderLocationResults(forceShow = false) {
   }
 
   if (!state.visibleLocationResults.length) {
-    elements.locationResults.innerHTML = '<div class="location-empty">No location found. Press Enter to map directly.</div>';
+    elements.locationResults.innerHTML = '<div class="location-empty">No city results. Keep typing or press Enter.</div>';
     elements.locationResults.classList.remove("hidden");
     return;
   }
