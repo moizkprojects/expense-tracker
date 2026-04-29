@@ -1,67 +1,33 @@
-import React from "react";
-import { Pressable, StyleSheet, Text, TextInput, View } from "react-native";
-import { colors } from "../constants/colors";
-import { ExpenseRowInput } from "../types";
+import type { ExpenseRow as ExpenseRowType } from "../types";
 
 type Props = {
-  row: ExpenseRowInput;
-  onChange: (next: ExpenseRowInput) => void;
-  onRemove: () => void;
+  row: ExpenseRowType;
   removable: boolean;
+  onChange: (row: ExpenseRowType) => void;
+  onRemove: () => void;
 };
 
-export const ExpenseRow = ({ row, onChange, onRemove, removable }: Props) => (
-  <View style={styles.row}>
-    <TextInput
-      style={[styles.input, styles.nameInput]}
-      placeholder="Expense name"
-      value={row.name}
-      onChangeText={(text) => onChange({ ...row, name: text })}
-      placeholderTextColor="#8F8F8F"
-    />
-    <TextInput
-      style={[styles.input, styles.amountInput]}
-      placeholder="0.00"
-      value={row.amount}
-      keyboardType="decimal-pad"
-      onChangeText={(text) => onChange({ ...row, amount: text })}
-      placeholderTextColor="#8F8F8F"
-    />
-    {removable ? (
-      <Pressable style={styles.removeBtn} onPress={onRemove}>
-        <Text style={styles.removeBtnText}>Remove</Text>
-      </Pressable>
-    ) : null}
-  </View>
-);
-
-const styles = StyleSheet.create({
-  row: {
-    marginBottom: 10,
-    gap: 8,
-  },
-  input: {
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: 12,
-    paddingHorizontal: 12,
-    paddingVertical: 12,
-    backgroundColor: "#FFFFFF",
-    fontSize: 15,
-    color: colors.text,
-  },
-  nameInput: {},
-  amountInput: {},
-  removeBtn: {
-    alignSelf: "flex-end",
-    paddingHorizontal: 12,
-    paddingVertical: 7,
-    borderRadius: 999,
-    backgroundColor: "#FCEAEA",
-  },
-  removeBtnText: {
-    color: colors.bad,
-    fontWeight: "600",
-    fontSize: 12,
-  },
-});
+export function ExpenseRow({ row, removable, onChange, onRemove }: Props) {
+  return (
+    <div className="expense-row">
+      <input
+        className="input"
+        placeholder="Expense name"
+        value={row.name}
+        onChange={(e) => onChange({ ...row, name: e.target.value })}
+      />
+      <input
+        className="input amount-input"
+        placeholder="0.00"
+        value={row.amount}
+        inputMode="decimal"
+        onChange={(e) => onChange({ ...row, amount: e.target.value })}
+      />
+      {removable ? (
+        <button className="remove-btn" onClick={onRemove} type="button" aria-label="Remove expense">
+          x
+        </button>
+      ) : null}
+    </div>
+  );
+}

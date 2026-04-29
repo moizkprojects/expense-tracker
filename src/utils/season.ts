@@ -16,23 +16,17 @@ const monthMap: Record<string, number> = {
 const parseMonthDay = (value: string): { month: number; day: number } | null => {
   const trimmed = value.trim();
   if (!trimmed) return null;
-  const parts = trimmed.split(/\s+/);
-  if (parts.length < 2) return null;
-  const month = monthMap[parts[0].toLowerCase()];
-  const day = Number(parts[1].replace(",", ""));
+  const [monthToken, dayToken] = trimmed.split(/\s+/);
+  const month = monthMap[monthToken.toLowerCase()];
+  const day = Number((dayToken || "").replace(",", ""));
   if (!month || Number.isNaN(day)) return null;
   return { month, day };
 };
 
-const dayOfYear = (date: Date): number => {
-  const start = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
-  const current = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
-  return Math.floor((current.getTime() - start.getTime()) / 86400000) + 1;
-};
-
-const mdToDayOfYear = (month: number, day: number): number => {
+const dayOfYear = (month: number, day: number): number => {
   const d = new Date(Date.UTC(2025, month - 1, day));
-  return dayOfYear(d);
+  const start = new Date(Date.UTC(2025, 0, 1));
+  return Math.floor((d.getTime() - start.getTime()) / 86400000) + 1;
 };
 
 export const isDateWithinSeason = (date: Date, seasonBegin: string, seasonEnd: string): boolean => {
@@ -41,13 +35,12 @@ export const isDateWithinSeason = (date: Date, seasonBegin: string, seasonEnd: s
   const end = parseMonthDay(seasonEnd);
   if (!begin || !end) return true;
 
-  const target = mdToDayOfYear(date.getUTCMonth() + 1, date.getUTCDate());
-  const start = mdToDayOfYear(begin.month, begin.day);
-  const finish = mdToDayOfYear(end.month, end.day);
+  const target = dayOfYear(date.getUTCMonth() + 1, date.getUTCDate());
+  const start = dayOfYear(begin.month, begin.day);
+  const finish = dayOfYear(end.month, end.day);
 
   if (start <= finish) {
     return target >= start && target <= finish;
   }
-
   return target >= start || target <= finish;
 };

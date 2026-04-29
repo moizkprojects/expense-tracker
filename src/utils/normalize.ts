@@ -11,19 +11,20 @@ export const normalizeCounty = (value: string): string =>
     .replace(/\s+/g, " ")
     .trim();
 
-export const parseLocationInput = (input: string): { city: string; state?: string } => {
-  const pieces = input
-    .split(",")
-    .map((item) => item.trim())
-    .filter(Boolean);
+export const toDateKey = (date: Date): string => date.toISOString().slice(0, 10);
 
-  if (pieces.length === 0) {
-    return { city: "" };
-  }
+export const toUsd = (value: number): string =>
+  new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  }).format(value);
 
-  if (pieces.length === 1) {
-    return { city: pieces[0] };
-  }
-
-  return { city: pieces[0], state: pieces[1].toUpperCase() };
+export const toAmount = (value: string): number => {
+  const parsed = Number(value.replace(/[^0-9.-]/g, ""));
+  return Number.isFinite(parsed) ? parsed : 0;
 };
+
+export const randomId = (): string =>
+  `${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 10)}`;

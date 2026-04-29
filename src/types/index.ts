@@ -1,4 +1,4 @@
-export type MatchType = "city_exact" | "county_fallback" | "standard_conus" | "unresolved";
+export type MatchType = "city_exact" | "county_fallback" | "standard_oconus" | "unresolved";
 
 export type RateRow = {
   state: string;
@@ -18,14 +18,30 @@ export type RateResolution = {
   message?: string;
 };
 
-export type Expense = {
-  id?: number;
+export type ExpenseRow = {
+  id: string;
+  name: string;
+  amount: string;
+};
+
+export type StoredExpense = {
   name: string;
   amount: number;
 };
 
-export type ExpenseRowInput = {
-  key: string;
-  name: string;
-  amount: string;
+export type DailySession = {
+  dateKey: string;
+  createdAt: string;
+  locationInput: string;
+  stateInput?: string;
+  resolution: RateResolution;
+  expenses: StoredExpense[];
+};
+
+export type OsmSuggestion = {
+  id: string;
+  city: string;
+  stateCode?: string;
+  county?: string;
+  display: string;
 };
