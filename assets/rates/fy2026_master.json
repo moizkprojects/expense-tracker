@@ -1,0 +1,5194 @@
+[
+    {
+        "state":  "AL",
+        "destination":  "Birmingham",
+        "county":  "Jefferson",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "AL",
+        "destination":  "Gulf Shores",
+        "county":  "Baldwin",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  74
+    },
+    {
+        "state":  "AL",
+        "destination":  "Gulf Shores",
+        "county":  "Baldwin",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "AL",
+        "destination":  "Gulf Shores",
+        "county":  "Baldwin",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "AL",
+        "destination":  "Gulf Shores",
+        "county":  "Baldwin",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "AL",
+        "destination":  "Huntsville",
+        "county":  "Madison",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "AL",
+        "destination":  "Huntsville",
+        "county":  "Madison",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "AL",
+        "destination":  "Huntsville",
+        "county":  "Madison",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "AL",
+        "destination":  "Mobile",
+        "county":  "Mobile",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "AR",
+        "destination":  "Hot Springs",
+        "county":  "Garland",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Grand Canyon / Flagstaff",
+        "county":  "Coconino / Yavapai less the city of Sedona",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Grand Canyon / Flagstaff",
+        "county":  "Coconino / Yavapai less the city of Sedona",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  80
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Grand Canyon / Flagstaff",
+        "county":  "Coconino / Yavapai less the city of Sedona",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Kayenta",
+        "county":  "Navajo",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Phoenix / Scottsdale",
+        "county":  "Maricopa",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Phoenix / Scottsdale",
+        "county":  "Maricopa",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Phoenix / Scottsdale",
+        "county":  "Maricopa",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Phoenix / Scottsdale",
+        "county":  "Maricopa",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Phoenix / Scottsdale",
+        "county":  "Maricopa",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Sedona",
+        "county":  "City Limits of Sedona",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Sedona",
+        "county":  "City Limits of Sedona",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  92
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Sedona",
+        "county":  "City Limits of Sedona",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Sedona",
+        "county":  "City Limits of Sedona",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Sedona",
+        "county":  "City Limits of Sedona",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Tucson",
+        "county":  "Pima",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Tucson",
+        "county":  "Pima",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "AZ",
+        "destination":  "Tucson",
+        "county":  "Pima",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "CA",
+        "destination":  "Antioch / Brentwood / Concord",
+        "county":  "Contra Costa",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Bakersfield / Ridgecrest",
+        "county":  "Kern",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "CA",
+        "destination":  "Barstow / Ontario / Victorville",
+        "county":  "San Bernardino",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Death Valley",
+        "county":  "Inyo / NAWS China Lake",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "CA",
+        "destination":  "Eureka / Arcata / McKinleyville",
+        "county":  "Humboldt",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Eureka / Arcata / McKinleyville",
+        "county":  "Humboldt",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Eureka / Arcata / McKinleyville",
+        "county":  "Humboldt",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Fresno",
+        "county":  "Fresno",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Los Angeles",
+        "county":  "Los Angeles / Orange / Ventura / Edwards AFB less the city of Santa Monica",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Mammoth Lakes",
+        "county":  "Mono",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Mammoth Lakes",
+        "county":  "Mono",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Mammoth Lakes",
+        "county":  "Mono",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Mill Valley / San Rafael / Novato",
+        "county":  "Marin",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Mill Valley / San Rafael / Novato",
+        "county":  "Marin",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Monterey",
+        "county":  "Monterey",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Monterey",
+        "county":  "Monterey",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Monterey",
+        "county":  "Monterey",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Monterey",
+        "county":  "Monterey",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Napa",
+        "county":  "Napa",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Napa",
+        "county":  "Napa",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Napa",
+        "county":  "Napa",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Oakhurst",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "CA",
+        "destination":  "Oakland",
+        "county":  "Alameda",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Palm Springs",
+        "county":  "Riverside",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Palm Springs",
+        "county":  "Riverside",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Point Arena / Gualala",
+        "county":  "Mendocino",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Sacramento",
+        "county":  "Sacramento",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "San Diego",
+        "county":  "San Diego",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "San Diego",
+        "county":  "San Diego",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "San Diego",
+        "county":  "San Diego",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "San Francisco",
+        "county":  "San Francisco",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "San Francisco",
+        "county":  "San Francisco",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "San Francisco",
+        "county":  "San Francisco",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "San Luis Obispo",
+        "county":  "San Luis Obispo",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "San Luis Obispo",
+        "county":  "San Luis Obispo",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "San Luis Obispo",
+        "county":  "San Luis Obispo",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "San Mateo / Foster City / Belmont",
+        "county":  "San Mateo",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Santa Barbara",
+        "county":  "Santa Barbara",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Santa Barbara",
+        "county":  "Santa Barbara",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Santa Barbara",
+        "county":  "Santa Barbara",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Santa Cruz",
+        "county":  "Santa Cruz",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Santa Cruz",
+        "county":  "Santa Cruz",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Santa Cruz",
+        "county":  "Santa Cruz",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "City limits of Santa Monica",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Santa Rosa",
+        "county":  "Sonoma",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "South Lake Tahoe",
+        "county":  "El Dorado",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "South Lake Tahoe",
+        "county":  "El Dorado",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "South Lake Tahoe",
+        "county":  "El Dorado",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "South Lake Tahoe",
+        "county":  "El Dorado",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "South Lake Tahoe",
+        "county":  "El Dorado",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "San Joaquin",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "CA",
+        "destination":  "Sunnyvale / Palo Alto / San Jose",
+        "county":  "Santa Clara",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  92
+    },
+    {
+        "state":  "CA",
+        "destination":  "Tahoe City",
+        "county":  "Placer",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Truckee",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Truckee",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Truckee",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Truckee",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Truckee",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Visalia",
+        "county":  "Tulare",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "CA",
+        "destination":  "West Sacramento / Davis",
+        "county":  "Yolo",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "CA",
+        "destination":  "Yosemite National Park",
+        "county":  "Mariposa",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Yosemite National Park",
+        "county":  "Mariposa",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CA",
+        "destination":  "Yosemite National Park",
+        "county":  "Mariposa",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CO",
+        "destination":  "Aspen",
+        "county":  "Pitkin",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Aspen",
+        "county":  "Pitkin",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Aspen",
+        "county":  "Pitkin",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Boulder / Broomfield",
+        "county":  "Boulder / Broomfield",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "Boulder / Broomfield",
+        "county":  "Boulder / Broomfield",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "Boulder / Broomfield",
+        "county":  "Boulder / Broomfield",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "Colorado Springs",
+        "county":  "El Paso",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CO",
+        "destination":  "Colorado Springs",
+        "county":  "El Paso",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CO",
+        "destination":  "Colorado Springs",
+        "county":  "El Paso",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CO",
+        "destination":  "Cortez",
+        "county":  "Montezuma",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "CO",
+        "destination":  "Cortez",
+        "county":  "Montezuma",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "CO",
+        "destination":  "Cortez",
+        "county":  "Montezuma",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "CO",
+        "destination":  "Crested Butte / Gunnison",
+        "county":  "Gunnison",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CO",
+        "destination":  "Denver / Aurora",
+        "county":  "Denver / Adams / Arapahoe / Jefferson",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Denver / Aurora",
+        "county":  "Denver / Adams / Arapahoe / Jefferson",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Denver / Aurora",
+        "county":  "Denver / Adams / Arapahoe / Jefferson",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Douglas",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Douglas",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Douglas",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "Durango",
+        "county":  "La Plata",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "Durango",
+        "county":  "La Plata",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "Fort Collins / Loveland",
+        "county":  "Larimer",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "Fort Collins / Loveland",
+        "county":  "Larimer",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "Fort Collins / Loveland",
+        "county":  "Larimer",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "CO",
+        "destination":  "Grand Lake",
+        "county":  "Grand",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CO",
+        "destination":  "Grand Lake",
+        "county":  "Grand",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CO",
+        "destination":  "Grand Lake",
+        "county":  "Grand",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "CO",
+        "destination":  "Grand Lake",
+        "county":  "Grand",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "CO",
+        "destination":  "Montrose",
+        "county":  "Montrose",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "CO",
+        "destination":  "Montrose",
+        "county":  "Montrose",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "CO",
+        "destination":  "Montrose",
+        "county":  "Montrose",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "CO",
+        "destination":  "Silverthorne / Breckenridge",
+        "county":  "Summit",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Silverthorne / Breckenridge",
+        "county":  "Summit",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Silverthorne / Breckenridge",
+        "county":  "Summit",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Steamboat Springs",
+        "county":  "Routt",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Steamboat Springs",
+        "county":  "Routt",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Steamboat Springs",
+        "county":  "Routt",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Steamboat Springs",
+        "county":  "Routt",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Telluride",
+        "county":  "San Miguel",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Telluride",
+        "county":  "San Miguel",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Telluride",
+        "county":  "San Miguel",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Vail",
+        "county":  "Eagle",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Vail",
+        "county":  "Eagle",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "CO",
+        "destination":  "Vail",
+        "county":  "Eagle",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "CT",
+        "destination":  "Bridgeport / Danbury",
+        "county":  "Fairfield",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "CT",
+        "destination":  "Hartford",
+        "county":  "Hartford",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "CT",
+        "destination":  "New Haven",
+        "county":  "New Haven",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "CT",
+        "destination":  "New London / Groton",
+        "county":  "New London",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "DC",
+        "destination":  "District of Columbia",
+        "county":  "Washington DC (also the cities of Alexandria, Falls Church and Fairfax, and the counties of Arlington and Fairfax, in Virginia; and the counties of Montgomery and Prince George\u0027s in Maryland)",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "DC",
+        "destination":  "District of Columbia",
+        "county":  "Washington DC (also the cities of Alexandria, Falls Church and Fairfax, and the counties of Arlington and Fairfax, in Virginia; and the counties of Montgomery and Prince George\u0027s in Maryland)",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  92
+    },
+    {
+        "state":  "DC",
+        "destination":  "District of Columbia",
+        "county":  "Washington DC (also the cities of Alexandria, Falls Church and Fairfax, and the counties of Arlington and Fairfax, in Virginia; and the counties of Montgomery and Prince George\u0027s in Maryland)",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "DC",
+        "destination":  "District of Columbia",
+        "county":  "Washington DC (also the cities of Alexandria, Falls Church and Fairfax, and the counties of Arlington and Fairfax, in Virginia; and the counties of Montgomery and Prince George\u0027s in Maryland)",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "DC",
+        "destination":  "District of Columbia",
+        "county":  "Washington DC (also the cities of Alexandria, Falls Church and Fairfax, and the counties of Arlington and Fairfax, in Virginia; and the counties of Montgomery and Prince George\u0027s in Maryland)",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "DE",
+        "destination":  "Lewes",
+        "county":  "Sussex",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "DE",
+        "destination":  "Lewes",
+        "county":  "Sussex",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "DE",
+        "destination":  "Lewes",
+        "county":  "Sussex",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "DE",
+        "destination":  "Wilmington",
+        "county":  "New Castle",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Boca Raton / Delray Beach / Jupiter",
+        "county":  "Palm Beach / Hendry",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Boca Raton / Delray Beach / Jupiter",
+        "county":  "Palm Beach / Hendry",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Boca Raton / Delray Beach / Jupiter",
+        "county":  "Palm Beach / Hendry",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Bradenton",
+        "county":  "Manatee",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Bradenton",
+        "county":  "Manatee",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Bradenton",
+        "county":  "Manatee",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Cocoa Beach",
+        "county":  "Brevard",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Cocoa Beach",
+        "county":  "Brevard",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Cocoa Beach",
+        "county":  "Brevard",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Daytona Beach",
+        "county":  "Volusia",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Daytona Beach",
+        "county":  "Volusia",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Daytona Beach",
+        "county":  "Volusia",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Daytona Beach",
+        "county":  "Volusia",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Lauderdale",
+        "county":  "Broward",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Lauderdale",
+        "county":  "Broward",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Lauderdale",
+        "county":  "Broward",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Myers",
+        "county":  "Lee",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Myers",
+        "county":  "Lee",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Myers",
+        "county":  "Lee",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Walton Beach / De Funiak Springs",
+        "county":  "Okaloosa / Walton",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Walton Beach / De Funiak Springs",
+        "county":  "Okaloosa / Walton",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Walton Beach / De Funiak Springs",
+        "county":  "Okaloosa / Walton",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Walton Beach / De Funiak Springs",
+        "county":  "Okaloosa / Walton",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Fort Walton Beach / De Funiak Springs",
+        "county":  "Okaloosa / Walton",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Gulf Breeze",
+        "county":  "Santa Rosa",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Gulf Breeze",
+        "county":  "Santa Rosa",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Gulf Breeze",
+        "county":  "Santa Rosa",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Gulf Breeze",
+        "county":  "Santa Rosa",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Key West",
+        "county":  "Monroe",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Key West",
+        "county":  "Monroe",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Key West",
+        "county":  "Monroe",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Key West",
+        "county":  "Monroe",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Miami",
+        "county":  "Miami-Dade",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "FL",
+        "destination":  "Miami",
+        "county":  "Miami-Dade",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "FL",
+        "destination":  "Miami",
+        "county":  "Miami-Dade",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "FL",
+        "destination":  "Miami",
+        "county":  "Miami-Dade",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "FL",
+        "destination":  "Miami",
+        "county":  "Miami-Dade",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "FL",
+        "destination":  "Naples",
+        "county":  "Collier",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Naples",
+        "county":  "Collier",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Naples",
+        "county":  "Collier",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Naples",
+        "county":  "Collier",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Orlando",
+        "county":  "Orange",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Orlando",
+        "county":  "Orange",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Orlando",
+        "county":  "Orange",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Panama City",
+        "county":  "Bay",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Panama City",
+        "county":  "Bay",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Panama City",
+        "county":  "Bay",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Panama City",
+        "county":  "Bay",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Escambia",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Escambia",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Escambia",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Escambia",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Punta Gorda",
+        "county":  "Charlotte",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Punta Gorda",
+        "county":  "Charlotte",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Punta Gorda",
+        "county":  "Charlotte",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Sarasota",
+        "county":  "Sarasota",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Sarasota",
+        "county":  "Sarasota",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Sarasota",
+        "county":  "Sarasota",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "FL",
+        "destination":  "Sebring",
+        "county":  "Highlands",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Sebring",
+        "county":  "Highlands",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Sebring",
+        "county":  "Highlands",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "St. Augustine",
+        "county":  "St. Johns",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "St. Augustine",
+        "county":  "St. Johns",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "St. Augustine",
+        "county":  "St. Johns",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Stuart",
+        "county":  "Martin",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Stuart",
+        "county":  "Martin",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Stuart",
+        "county":  "Martin",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Tallahassee",
+        "county":  "Leon",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Tallahassee",
+        "county":  "Leon",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Tallahassee",
+        "county":  "Leon",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Tampa / St. Petersburg",
+        "county":  "Pinellas / Hillsborough",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Tampa / St. Petersburg",
+        "county":  "Pinellas / Hillsborough",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Tampa / St. Petersburg",
+        "county":  "Pinellas / Hillsborough",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "FL",
+        "destination":  "Vero Beach",
+        "county":  "Indian River",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Vero Beach",
+        "county":  "Indian River",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "FL",
+        "destination":  "Vero Beach",
+        "county":  "Indian River",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "GA",
+        "destination":  "Athens",
+        "county":  "Clarke",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "GA",
+        "destination":  "Atlanta",
+        "county":  "Fulton / Dekalb",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "GA",
+        "destination":  "Atlanta",
+        "county":  "Fulton / Dekalb",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "GA",
+        "destination":  "Atlanta",
+        "county":  "Fulton / Dekalb",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "GA",
+        "destination":  "Augusta",
+        "county":  "Richmond",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "GA",
+        "destination":  "Augusta",
+        "county":  "Richmond",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "GA",
+        "destination":  "Augusta",
+        "county":  "Richmond",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "GA",
+        "destination":  "Jekyll Island / Brunswick",
+        "county":  "Glynn",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  86
+    },
+    {
+        "state":  "GA",
+        "destination":  "Jekyll Island / Brunswick",
+        "county":  "Glynn",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "GA",
+        "destination":  "Jekyll Island / Brunswick",
+        "county":  "Glynn",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "GA",
+        "destination":  "Marietta",
+        "county":  "Cobb",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "GA",
+        "destination":  "Savannah",
+        "county":  "Chatham",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  80
+    },
+    {
+        "state":  "GA",
+        "destination":  "Savannah",
+        "county":  "Chatham",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "GA",
+        "destination":  "Savannah",
+        "county":  "Chatham",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "IA",
+        "destination":  "Dallas",
+        "county":  "Dallas",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "IA",
+        "destination":  "Des Moines",
+        "county":  "Polk",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "ID",
+        "destination":  "Boise",
+        "county":  "Ada",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "ID",
+        "destination":  "Boise",
+        "county":  "Ada",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "ID",
+        "destination":  "Boise",
+        "county":  "Ada",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "ID",
+        "destination":  "Coeur d\u0027Alene",
+        "county":  "Kootenai",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "ID",
+        "destination":  "Coeur d\u0027Alene",
+        "county":  "Kootenai",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "ID",
+        "destination":  "Coeur d\u0027Alene",
+        "county":  "Kootenai",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "ID",
+        "destination":  "Sun Valley / Ketchum",
+        "county":  "Blaine / Elmore",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "ID",
+        "destination":  "Sun Valley / Ketchum",
+        "county":  "Blaine / Elmore",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "ID",
+        "destination":  "Sun Valley / Ketchum",
+        "county":  "Blaine / Elmore",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "ID",
+        "destination":  "Sun Valley / Ketchum",
+        "county":  "Blaine / Elmore",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "IL",
+        "destination":  "Bolingbrook / Romeoville / Lemont",
+        "county":  "Will",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "IL",
+        "destination":  "Chicago",
+        "county":  "Cook / Lake",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "IL",
+        "destination":  "Chicago",
+        "county":  "Cook / Lake",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "IL",
+        "destination":  "Chicago",
+        "county":  "Cook / Lake",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "IL",
+        "destination":  "Chicago",
+        "county":  "Cook / Lake",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "IL",
+        "destination":  "Chicago",
+        "county":  "Cook / Lake",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "IL",
+        "destination":  "East St. Louis / O\u0027Fallon / Fairview Heights",
+        "county":  "St. Clair",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "IL",
+        "destination":  "Oak Brook Terrace",
+        "county":  "DuPage",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "IN",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Monroe",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "IN",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Monroe",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "IN",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Monroe",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "IN",
+        "destination":  "Indianapolis / Carmel",
+        "county":  "Marion / Hamilton",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "IN",
+        "destination":  "Lafayette / West Lafayette",
+        "county":  "Tippecanoe",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "IN",
+        "destination":  "Lafayette / West Lafayette",
+        "county":  "Tippecanoe",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "KS",
+        "destination":  "Kansas City / Overland Park",
+        "county":  "Wyandotte / Johnson / Leavenworth",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "KY",
+        "destination":  "Boone",
+        "county":  "Boone",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "KY",
+        "destination":  "Kenton",
+        "county":  "Kenton",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "KY",
+        "destination":  "Lexington",
+        "county":  "Fayette",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "KY",
+        "destination":  "Louisville",
+        "county":  "Jefferson",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "KY",
+        "destination":  "Louisville",
+        "county":  "Jefferson",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "KY",
+        "destination":  "Louisville",
+        "county":  "Jefferson",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "KY",
+        "destination":  "Louisville",
+        "county":  "Jefferson",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "KY",
+        "destination":  "Louisville",
+        "county":  "Jefferson",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "LA",
+        "destination":  "Alexandria / Leesville / Natchitoches",
+        "county":  "Allen / Jefferson Davis / Natchitoches / Rapides / Vernon Parishes",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "LA",
+        "destination":  "New Orleans",
+        "county":  "Orleans / Jefferson Parishes",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "LA",
+        "destination":  "New Orleans",
+        "county":  "Orleans / Jefferson Parishes",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "LA",
+        "destination":  "New Orleans",
+        "county":  "Orleans / Jefferson Parishes",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "LA",
+        "destination":  "New Orleans",
+        "county":  "Orleans / Jefferson Parishes",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MA",
+        "destination":  "Andover",
+        "county":  "Essex",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "MA",
+        "destination":  "Boston / Cambridge",
+        "county":  "Suffolk, city of Cambridge",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Boston / Cambridge",
+        "county":  "Suffolk, city of Cambridge",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Boston / Cambridge",
+        "county":  "Suffolk, city of Cambridge",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Boston / Cambridge",
+        "county":  "Suffolk, city of Cambridge",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Burlington / Woburn",
+        "county":  "Middlesex less the city of Cambridge",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "MA",
+        "destination":  "Burlington / Woburn",
+        "county":  "Middlesex less the city of Cambridge",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "MA",
+        "destination":  "Burlington / Woburn",
+        "county":  "Middlesex less the city of Cambridge",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "MA",
+        "destination":  "Falmouth",
+        "county":  "City limits of Falmouth",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "MA",
+        "destination":  "Falmouth",
+        "county":  "City limits of Falmouth",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "MA",
+        "destination":  "Falmouth",
+        "county":  "City limits of Falmouth",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "MA",
+        "destination":  "Hyannis",
+        "county":  "Barnstable less the city of Falmouth",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Hyannis",
+        "county":  "Barnstable less the city of Falmouth",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Hyannis",
+        "county":  "Barnstable less the city of Falmouth",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Martha\u0027s Vineyard",
+        "county":  "Dukes",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Martha\u0027s Vineyard",
+        "county":  "Dukes",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Nantucket",
+        "county":  "Nantucket",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Nantucket",
+        "county":  "Nantucket",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "MA",
+        "destination":  "Northampton",
+        "county":  "Hampshire",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "MA",
+        "destination":  "Pittsfield",
+        "county":  "Berkshire",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "MA",
+        "destination":  "Pittsfield",
+        "county":  "Berkshire",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "MA",
+        "destination":  "Pittsfield",
+        "county":  "Berkshire",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "MA",
+        "destination":  "Plymouth / Taunton / New Bedford",
+        "county":  "Plymouth / Bristol",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "MA",
+        "destination":  "Quincy",
+        "county":  "Norfolk",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "MA",
+        "destination":  "Quincy",
+        "county":  "Norfolk",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MA",
+        "destination":  "Quincy",
+        "county":  "Norfolk",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MA",
+        "destination":  "Springfield",
+        "county":  "Hampden",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "MA",
+        "destination":  "Worcester",
+        "county":  "Worcester",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "MD",
+        "destination":  "Aberdeen / Bel Air / Belcamp",
+        "county":  "Harford",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "MD",
+        "destination":  "Annapolis",
+        "county":  "Anne Arundel",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "MD",
+        "destination":  "Annapolis",
+        "county":  "Anne Arundel",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MD",
+        "destination":  "Annapolis",
+        "county":  "Anne Arundel",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MD",
+        "destination":  "Baltimore City",
+        "county":  "Baltimore City",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "MD",
+        "destination":  "Cambridge / St. Michaels",
+        "county":  "Dorchester / Talbot",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "MD",
+        "destination":  "Cambridge / St. Michaels",
+        "county":  "Dorchester / Talbot",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "MD",
+        "destination":  "Cambridge / St. Michaels",
+        "county":  "Dorchester / Talbot",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MD",
+        "destination":  "Centreville",
+        "county":  "Queen Anne",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "MD",
+        "destination":  "Centreville",
+        "county":  "Queen Anne",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "MD",
+        "destination":  "Centreville",
+        "county":  "Queen Anne",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "MD",
+        "destination":  "Columbia",
+        "county":  "Howard",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "MD",
+        "destination":  "Ocean City",
+        "county":  "Worcester",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "MD",
+        "destination":  "Ocean City",
+        "county":  "Worcester",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "MD",
+        "destination":  "Ocean City",
+        "county":  "Worcester",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "ME",
+        "destination":  "Bar Harbor / Rockport",
+        "county":  "Hancock / Knox",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "ME",
+        "destination":  "Bar Harbor / Rockport",
+        "county":  "Hancock / Knox",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "ME",
+        "destination":  "Bar Harbor / Rockport",
+        "county":  "Hancock / Knox",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "ME",
+        "destination":  "Bar Harbor / Rockport",
+        "county":  "Hancock / Knox",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "ME",
+        "destination":  "Bar Harbor / Rockport",
+        "county":  "Hancock / Knox",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "ME",
+        "destination":  "Kennebunk / Kittery / Sanford",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "ME",
+        "destination":  "Kennebunk / Kittery / Sanford",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "ME",
+        "destination":  "Kennebunk / Kittery / Sanford",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "ME",
+        "destination":  "Kennebunk / Kittery / Sanford",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "ME",
+        "destination":  "Portland",
+        "county":  "Cumberland / Sagadahoc",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "ME",
+        "destination":  "Portland",
+        "county":  "Cumberland / Sagadahoc",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "ME",
+        "destination":  "Portland",
+        "county":  "Cumberland / Sagadahoc",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "ME",
+        "destination":  "Portland",
+        "county":  "Cumberland / Sagadahoc",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MI",
+        "destination":  "Ann Arbor",
+        "county":  "Washtenaw",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "MI",
+        "destination":  "Ann Arbor",
+        "county":  "Washtenaw",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "MI",
+        "destination":  "Ann Arbor",
+        "county":  "Washtenaw",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MI",
+        "destination":  "Detroit",
+        "county":  "Wayne",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "MI",
+        "destination":  "Grand Rapids",
+        "county":  "Kent",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "MI",
+        "destination":  "Holland",
+        "county":  "Ottawa",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "MI",
+        "destination":  "Holland",
+        "county":  "Ottawa",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "MI",
+        "destination":  "Holland",
+        "county":  "Ottawa",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "MI",
+        "destination":  "Mackinac Island",
+        "county":  "Mackinac",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "MI",
+        "destination":  "Mackinac Island",
+        "county":  "Mackinac",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "MI",
+        "destination":  "Mackinac Island",
+        "county":  "Mackinac",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "MI",
+        "destination":  "Midland",
+        "county":  "Midland",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "MI",
+        "destination":  "Muskegon",
+        "county":  "Muskegon",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  68
+    },
+    {
+        "state":  "MI",
+        "destination":  "Muskegon",
+        "county":  "Muskegon",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  68
+    },
+    {
+        "state":  "MI",
+        "destination":  "Muskegon",
+        "county":  "Muskegon",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  68
+    },
+    {
+        "state":  "MI",
+        "destination":  "Petoskey",
+        "county":  "Emmet",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "MI",
+        "destination":  "Petoskey",
+        "county":  "Emmet",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "MI",
+        "destination":  "Petoskey",
+        "county":  "Emmet",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "MI",
+        "destination":  "Petoskey",
+        "county":  "Emmet",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "MI",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Oakland",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "MI",
+        "destination":  "South Haven",
+        "county":  "Van Buren",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  68
+    },
+    {
+        "state":  "MI",
+        "destination":  "South Haven",
+        "county":  "Van Buren",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  68
+    },
+    {
+        "state":  "MI",
+        "destination":  "South Haven",
+        "county":  "Van Buren",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  68
+    },
+    {
+        "state":  "MI",
+        "destination":  "Traverse City",
+        "county":  "Grand Traverse",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MI",
+        "destination":  "Traverse City",
+        "county":  "Grand Traverse",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "MI",
+        "destination":  "Traverse City",
+        "county":  "Grand Traverse",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MN",
+        "destination":  "Duluth",
+        "county":  "St. Louis",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "MN",
+        "destination":  "Duluth",
+        "county":  "St. Louis",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "MN",
+        "destination":  "Duluth",
+        "county":  "St. Louis",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "MN",
+        "destination":  "Minneapolis / St. Paul",
+        "county":  "Hennepin / Ramsey",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  92
+    },
+    {
+        "state":  "MN",
+        "destination":  "Rochester",
+        "county":  "Olmsted",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "MO",
+        "destination":  "Kansas City",
+        "county":  "Jackson / Clay / Cass / Platte",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "MO",
+        "destination":  "St. Louis",
+        "county":  "St. Louis / St. Louis City / St. Charles",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "MS",
+        "destination":  "Oxford",
+        "county":  "Lafayette",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "MS",
+        "destination":  "Southaven",
+        "county":  "Desoto",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "MS",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Oktibbeha",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "MT",
+        "destination":  "Big Sky / West Yellowstone/Gardiner",
+        "county":  "Gallatin/Park",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "MT",
+        "destination":  "Big Sky / West Yellowstone/Gardiner",
+        "county":  "Gallatin/Park",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MT",
+        "destination":  "Helena",
+        "county":  "Lewis and Clark",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "MT",
+        "destination":  "Kalispell/Whitefish",
+        "county":  "Flathead",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MT",
+        "destination":  "Kalispell/Whitefish",
+        "county":  "Flathead",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "MT",
+        "destination":  "Missoula",
+        "county":  "Missoula",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "MT",
+        "destination":  "Missoula",
+        "county":  "Missoula",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Buncombe",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "NC",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Buncombe",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NC",
+        "destination":  "Atlantic Beach / Morehead City",
+        "county":  "Carteret",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Atlantic Beach / Morehead City",
+        "county":  "Carteret",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Atlantic Beach / Morehead City",
+        "county":  "Carteret",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Chapel Hill",
+        "county":  "Orange",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NC",
+        "destination":  "Charlotte",
+        "county":  "Mecklenburg",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NC",
+        "destination":  "Durham",
+        "county":  "Durham",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Fayetteville",
+        "county":  "Cumberland",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "NC",
+        "destination":  "Greensboro",
+        "county":  "Guilford",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Greensboro",
+        "county":  "Guilford",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Greensboro",
+        "county":  "Guilford",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Kill Devil Hills",
+        "county":  "Dare",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Kill Devil Hills",
+        "county":  "Dare",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Kill Devil Hills",
+        "county":  "Dare",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Kill Devil Hills",
+        "county":  "Dare",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Raleigh",
+        "county":  "Wake",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Wilmington",
+        "county":  "New Hanover",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Wilmington",
+        "county":  "New Hanover",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  74
+    },
+    {
+        "state":  "NC",
+        "destination":  "Wilmington",
+        "county":  "New Hanover",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NE",
+        "destination":  "Omaha",
+        "county":  "Douglas",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NH",
+        "destination":  "Concord",
+        "county":  "Merrimack",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Conway",
+        "county":  "Caroll",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  80
+    },
+    {
+        "state":  "NH",
+        "destination":  "Conway",
+        "county":  "Caroll",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NH",
+        "destination":  "Conway",
+        "county":  "Caroll",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "NH",
+        "destination":  "Conway",
+        "county":  "Caroll",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NH",
+        "destination":  "Durham",
+        "county":  "Strafford",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Durham",
+        "county":  "Strafford",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Durham",
+        "county":  "Strafford",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Laconia",
+        "county":  "Belknap",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Laconia",
+        "county":  "Belknap",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Laconia",
+        "county":  "Belknap",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Lebanon / Lincoln / West Lebanon",
+        "county":  "Grafton",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Lebanon / Lincoln / West Lebanon",
+        "county":  "Grafton",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Lebanon / Lincoln / West Lebanon",
+        "county":  "Grafton",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Manchester",
+        "county":  "Hillsborough",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Portsmouth",
+        "county":  "Rockingham",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Portsmouth",
+        "county":  "Rockingham",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Portsmouth",
+        "county":  "Rockingham",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NH",
+        "destination":  "Portsmouth",
+        "county":  "Rockingham",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Cherry Hill / Moorestown",
+        "county":  "Camden / Burlington",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Eatontown / Freehold",
+        "county":  "Monmouth",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Edison / Piscataway",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Flemington",
+        "county":  "Hunterdon",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Newark",
+        "county":  "Essex / Bergen / Hudson / Passaic",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Parsippany",
+        "county":  "Morris",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Princeton / Trenton",
+        "county":  "Mercer",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Somerset",
+        "county":  "Somerset",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Springfield / Cranford / New Providence",
+        "county":  "Union",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Toms River",
+        "county":  "Ocean",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Toms River",
+        "county":  "Ocean",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "NJ",
+        "destination":  "Toms River",
+        "county":  "Ocean",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "NM",
+        "destination":  "Albuquerque",
+        "county":  "Bernalillo",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NM",
+        "destination":  "Carlsbad",
+        "county":  "Eddy",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "NM",
+        "destination":  "Santa Fe",
+        "county":  "Santa Fe",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "NM",
+        "destination":  "Santa Fe",
+        "county":  "Santa Fe",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "NM",
+        "destination":  "Santa Fe",
+        "county":  "Santa Fe",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  80
+    },
+    {
+        "state":  "NM",
+        "destination":  "Santa Fe",
+        "county":  "Santa Fe",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NM",
+        "destination":  "Taos",
+        "county":  "Taos",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "NV",
+        "destination":  "Incline Village / Reno / Sparks",
+        "county":  "Washoe",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NV",
+        "destination":  "Incline Village / Reno / Sparks",
+        "county":  "Washoe",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "NV",
+        "destination":  "Incline Village / Reno / Sparks",
+        "county":  "Washoe",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NV",
+        "destination":  "Las Vegas",
+        "county":  "Clark",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "NV",
+        "destination":  "Las Vegas",
+        "county":  "Clark",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "NV",
+        "destination":  "Las Vegas",
+        "county":  "Clark",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Albany",
+        "county":  "Albany",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Binghamton",
+        "county":  "Broome",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "NY",
+        "destination":  "Buffalo",
+        "county":  "Erie",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Buffalo",
+        "county":  "Erie",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Buffalo",
+        "county":  "Erie",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Floral Park / Garden City / Great Neck",
+        "county":  "Nassau",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Glens Falls",
+        "county":  "Warren",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Glens Falls",
+        "county":  "Warren",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Glens Falls",
+        "county":  "Warren",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Ithaca",
+        "county":  "Tompkins",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Kingston",
+        "county":  "Ulster",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Lake Placid",
+        "county":  "Essex",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Lake Placid",
+        "county":  "Essex",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Lake Placid",
+        "county":  "Essex",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Lake Placid",
+        "county":  "Essex",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "New York City",
+        "county":  "Bronx / Kings / New York / Queens / Richmond",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "NY",
+        "destination":  "New York City",
+        "county":  "Bronx / Kings / New York / Queens / Richmond",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  92
+    },
+    {
+        "state":  "NY",
+        "destination":  "New York City",
+        "county":  "Bronx / Kings / New York / Queens / Richmond",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "NY",
+        "destination":  "New York City",
+        "county":  "Bronx / Kings / New York / Queens / Richmond",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "NY",
+        "destination":  "New York City",
+        "county":  "Bronx / Kings / New York / Queens / Richmond",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "NY",
+        "destination":  "Niagara Falls",
+        "county":  "Niagara",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Niagara Falls",
+        "county":  "Niagara",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Niagara Falls",
+        "county":  "Niagara",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Nyack / Palisades",
+        "county":  "Rockland",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Poughkeepsie",
+        "county":  "Dutchess",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Riverhead / Ronkonkoma / Melville",
+        "county":  "Suffolk",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "NY",
+        "destination":  "Rochester",
+        "county":  "Monroe",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Saratoga Springs / Schenectady",
+        "county":  "Saratoga / Schenectady",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Saratoga Springs / Schenectady",
+        "county":  "Saratoga / Schenectady",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Saratoga Springs / Schenectady",
+        "county":  "Saratoga / Schenectady",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Syracuse / Oswego",
+        "county":  "Onondaga / Oswego",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "Tarrytown / White Plains / New Rochelle",
+        "county":  "Westchester",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  92
+    },
+    {
+        "state":  "NY",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Rensselaer",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "NY",
+        "destination":  "West Point",
+        "county":  "Orange",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "OH",
+        "destination":  "Cincinnati",
+        "county":  "Hamilton / Clermont",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "OH",
+        "destination":  "Cleveland",
+        "county":  "Cuyahoga",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "OH",
+        "destination":  "Columbus",
+        "county":  "Franklin",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "OH",
+        "destination":  "Dayton / Fairborn",
+        "county":  "Greene / Montgomery",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "OH",
+        "destination":  "Hamilton",
+        "county":  "Butler / Warren",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "OH",
+        "destination":  "Sandusky",
+        "county":  "Erie",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  68
+    },
+    {
+        "state":  "OH",
+        "destination":  "Sandusky",
+        "county":  "Erie",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  68
+    },
+    {
+        "state":  "OH",
+        "destination":  "Sandusky",
+        "county":  "Erie",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  68
+    },
+    {
+        "state":  "OK",
+        "destination":  "Oklahoma City",
+        "county":  "Oklahoma",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "OR",
+        "destination":  "Beaverton",
+        "county":  "Washington",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "OR",
+        "destination":  "Bend",
+        "county":  "Deschutes",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "OR",
+        "destination":  "Bend",
+        "county":  "Deschutes",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "OR",
+        "destination":  "Bend",
+        "county":  "Deschutes",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "OR",
+        "destination":  "Clackamas",
+        "county":  "Clackamas",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "OR",
+        "destination":  "Eugene / Florence",
+        "county":  "Lane",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "OR",
+        "destination":  "Eugene / Florence",
+        "county":  "Lane",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "OR",
+        "destination":  "Eugene / Florence",
+        "county":  "Lane",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "OR",
+        "destination":  "Lincoln City",
+        "county":  "Lincoln",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "OR",
+        "destination":  "Lincoln City",
+        "county":  "Lincoln",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "OR",
+        "destination":  "Lincoln City",
+        "county":  "Lincoln",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "OR",
+        "destination":  "Portland",
+        "county":  "Multnomah",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "OR",
+        "destination":  "Seaside",
+        "county":  "Clatsop",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "OR",
+        "destination":  "Seaside",
+        "county":  "Clatsop",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "OR",
+        "destination":  "Seaside",
+        "county":  "Clatsop",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "PA",
+        "destination":  "Allentown / Easton / Bethlehem",
+        "county":  "Lehigh / Northampton",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "PA",
+        "destination":  "Bucks",
+        "county":  "Bucks",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "PA",
+        "destination":  "Chester / Radnor / Essington",
+        "county":  "Delaware",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "PA",
+        "destination":  "Gettysburg",
+        "county":  "Adams",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  68
+    },
+    {
+        "state":  "PA",
+        "destination":  "Gettysburg",
+        "county":  "Adams",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  68
+    },
+    {
+        "state":  "PA",
+        "destination":  "Gettysburg",
+        "county":  "Adams",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  68
+    },
+    {
+        "state":  "PA",
+        "destination":  "Harrisburg",
+        "county":  "Dauphin County excluding Hershey",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "PA",
+        "destination":  "Hershey",
+        "county":  "Hershey",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "PA",
+        "destination":  "Hershey",
+        "county":  "Hershey",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "PA",
+        "destination":  "Hershey",
+        "county":  "Hershey",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "PA",
+        "destination":  "Lancaster",
+        "county":  "Lancaster",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "PA",
+        "destination":  "Malvern / Frazer / Berwyn",
+        "county":  "Chester",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "PA",
+        "destination":  "Montgomery",
+        "county":  "Montgomery",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "PA",
+        "destination":  "Philadelphia",
+        "county":  "Philadelphia",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "PA",
+        "destination":  "Philadelphia",
+        "county":  "Philadelphia",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "PA",
+        "destination":  "Philadelphia",
+        "county":  "Philadelphia",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "PA",
+        "destination":  "Philadelphia",
+        "county":  "Philadelphia",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "PA",
+        "destination":  "Pittsburgh",
+        "county":  "Allegheny",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "PA",
+        "destination":  "Reading",
+        "county":  "Berks",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "PA",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Centre",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "RI",
+        "destination":  "Jamestown / Middletown / Newport",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "RI",
+        "destination":  "Jamestown / Middletown / Newport",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "RI",
+        "destination":  "Jamestown / Middletown / Newport",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "RI",
+        "destination":  "Jamestown / Middletown / Newport",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "RI",
+        "destination":  "Providence / Bristol",
+        "county":  "Providence / Bristol",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "SC",
+        "destination":  "Charleston",
+        "county":  "Charleston / Berkeley / Dorchester",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "SC",
+        "destination":  "Charleston",
+        "county":  "Charleston / Berkeley / Dorchester",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  92
+    },
+    {
+        "state":  "SC",
+        "destination":  "Charleston",
+        "county":  "Charleston / Berkeley / Dorchester",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "SC",
+        "destination":  "Charleston",
+        "county":  "Charleston / Berkeley / Dorchester",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "SC",
+        "destination":  "Columbia",
+        "county":  "Richland / Lexington",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "SC",
+        "destination":  "Hilton Head",
+        "county":  "Beaufort",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "SC",
+        "destination":  "Hilton Head",
+        "county":  "Beaufort",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  80
+    },
+    {
+        "state":  "SC",
+        "destination":  "Hilton Head",
+        "county":  "Beaufort",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "SC",
+        "destination":  "Hilton Head",
+        "county":  "Beaufort",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "SC",
+        "destination":  "Hilton Head",
+        "county":  "Beaufort",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "SC",
+        "destination":  "Myrtle Beach",
+        "county":  "Horry",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "SC",
+        "destination":  "Myrtle Beach",
+        "county":  "Horry",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "SC",
+        "destination":  "Myrtle Beach",
+        "county":  "Horry",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "SC",
+        "destination":  "Myrtle Beach",
+        "county":  "Horry",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "SD",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Lawrence",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "SD",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Lawrence",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "SD",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Lawrence",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "SD",
+        "destination":  "Hot Springs",
+        "county":  "Fall River / Custer",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "SD",
+        "destination":  "Hot Springs",
+        "county":  "Fall River / Custer",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "SD",
+        "destination":  "Rapid City",
+        "county":  "Pennington",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "SD",
+        "destination":  "Rapid City",
+        "county":  "Pennington",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "SD",
+        "destination":  "Rapid City",
+        "county":  "Pennington",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "TN",
+        "destination":  "Brentwood / Franklin",
+        "county":  "Williamson",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "TN",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Hamilton",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "TN",
+        "destination":  "Knoxville",
+        "county":  "Knox",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "TN",
+        "destination":  "Memphis",
+        "county":  "Shelby",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "TN",
+        "destination":  "Nashville",
+        "county":  "Davidson",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "TN",
+        "destination":  "Nashville",
+        "county":  "Davidson",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "TN",
+        "destination":  "Nashville",
+        "county":  "Davidson",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "TX",
+        "destination":  "Arlington / Fort Worth / Grapevine",
+        "county":  "Tarrant County / City of Grapevine",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "TX",
+        "destination":  "Austin",
+        "county":  "Travis",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "TX",
+        "destination":  "Austin",
+        "county":  "Travis",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "TX",
+        "destination":  "Austin",
+        "county":  "Travis",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "TX",
+        "destination":  "Big Spring",
+        "county":  "Howard",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "TX",
+        "destination":  "Dallas",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "TX",
+        "destination":  "Dallas",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "TX",
+        "destination":  "Dallas",
+        "county":  "System.Xml.XmlElement",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "TX",
+        "destination":  "Galveston",
+        "county":  "Galveston",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "Galveston",
+        "county":  "Galveston",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "Galveston",
+        "county":  "Galveston",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "Houston",
+        "county":  "Montgomery / Fort Bend / Harris",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "TX",
+        "destination":  "Midland / Odessa",
+        "county":  "Midland / Andrews / Ector / Martin",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "Midland / Odessa",
+        "county":  "Midland / Andrews / Ector / Martin",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "Midland / Odessa",
+        "county":  "Midland / Andrews / Ector / Martin",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "Pecos",
+        "county":  "Reeves",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "Plano",
+        "county":  "Collin",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "TX",
+        "destination":  "San Antonio",
+        "county":  "Bexar",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "January 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "San Antonio",
+        "county":  "Bexar",
+        "seasonBegin":  "February 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "San Antonio",
+        "county":  "Bexar",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "South Padre Island",
+        "county":  "Cameron",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "South Padre Island",
+        "county":  "Cameron",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "TX",
+        "destination":  "South Padre Island",
+        "county":  "Cameron",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "UT",
+        "destination":  "Moab",
+        "county":  "Grand",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "UT",
+        "destination":  "Moab",
+        "county":  "Grand",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  86
+    },
+    {
+        "state":  "UT",
+        "destination":  "Moab",
+        "county":  "Grand",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "UT",
+        "destination":  "Moab",
+        "county":  "Grand",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "UT",
+        "destination":  "Moab",
+        "county":  "Grand",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "UT",
+        "destination":  "Park City",
+        "county":  "Summit",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "UT",
+        "destination":  "Park City",
+        "county":  "Summit",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "UT",
+        "destination":  "Park City",
+        "county":  "Summit",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "UT",
+        "destination":  "Provo",
+        "county":  "Utah",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "UT",
+        "destination":  "Salt Lake City",
+        "county":  "Salt Lake / Tooele",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "VA",
+        "destination":  "Blacksburg",
+        "county":  "Montgomery",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "VA",
+        "destination":  "Charlottesville",
+        "county":  "City of Charlottesville / Albemarle",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "VA",
+        "destination":  "Loudoun",
+        "county":  "Loudoun",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "VA",
+        "destination":  "Lynchburg",
+        "county":  "Campbell / Lynchburg City",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  68
+    },
+    {
+        "state":  "VA",
+        "destination":  "Lynchburg",
+        "county":  "Campbell / Lynchburg City",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  68
+    },
+    {
+        "state":  "VA",
+        "destination":  "Lynchburg",
+        "county":  "Campbell / Lynchburg City",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  68
+    },
+    {
+        "state":  "VA",
+        "destination":  "Richmond",
+        "county":  "City of Richmond",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "VA",
+        "destination":  "Roanoke",
+        "county":  "City limits of Roanoke",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  74
+    },
+    {
+        "state":  "VA",
+        "destination":  "Virginia Beach",
+        "county":  "City of Virginia Beach",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "VA",
+        "destination":  "Virginia Beach",
+        "county":  "City of Virginia Beach",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "VA",
+        "destination":  "Virginia Beach",
+        "county":  "City of Virginia Beach",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "VA",
+        "destination":  "Wallops Island",
+        "county":  "Accomack",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  68
+    },
+    {
+        "state":  "VA",
+        "destination":  "Wallops Island",
+        "county":  "Accomack",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  68
+    },
+    {
+        "state":  "VA",
+        "destination":  "Wallops Island",
+        "county":  "Accomack",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  68
+    },
+    {
+        "state":  "VA",
+        "destination":  "Williamsburg / York",
+        "county":  "James City / York Counties / City of Williamsburg",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "December 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "VA",
+        "destination":  "Williamsburg / York",
+        "county":  "James City / York Counties / City of Williamsburg",
+        "seasonBegin":  "January 1",
+        "seasonEnd":  "March 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "VA",
+        "destination":  "Williamsburg / York",
+        "county":  "James City / York Counties / City of Williamsburg",
+        "seasonBegin":  "April 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "VA",
+        "destination":  "Williamsburg / York",
+        "county":  "James City / York Counties / City of Williamsburg",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "VT",
+        "destination":  "Burlington",
+        "county":  "Chittenden",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "VT",
+        "destination":  "Burlington",
+        "county":  "Chittenden",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "VT",
+        "destination":  "Burlington",
+        "county":  "Chittenden",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "VT",
+        "destination":  "Manchester",
+        "county":  "Bennington",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "VT",
+        "destination":  "Manchester",
+        "county":  "Bennington",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "VT",
+        "destination":  "Manchester",
+        "county":  "Bennington",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "VT",
+        "destination":  "Montpelier",
+        "county":  "Washington",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "VT",
+        "destination":  "Montpelier",
+        "county":  "Washington",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "July 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "VT",
+        "destination":  "Montpelier",
+        "county":  "Washington",
+        "seasonBegin":  "August 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "VT",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Lamoille",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "February 28",
+        "mieRate":  86
+    },
+    {
+        "state":  "VT",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Lamoille",
+        "seasonBegin":  "March 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "VT",
+        "destination":  "System.Xml.XmlElement",
+        "county":  "Lamoille",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "VT",
+        "destination":  "White River Junction",
+        "county":  "Windsor",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "WA",
+        "destination":  "Everett / Lynnwood",
+        "county":  "Snohomish",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "WA",
+        "destination":  "Everett / Lynnwood",
+        "county":  "Snohomish",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "WA",
+        "destination":  "Everett / Lynnwood",
+        "county":  "Snohomish",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "WA",
+        "destination":  "Ocean Shores",
+        "county":  "Grays Harbor",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "WA",
+        "destination":  "Ocean Shores",
+        "county":  "Grays Harbor",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  86
+    },
+    {
+        "state":  "WA",
+        "destination":  "Ocean Shores",
+        "county":  "Grays Harbor",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  86
+    },
+    {
+        "state":  "WA",
+        "destination":  "Olympia / Tumwater",
+        "county":  "Thurston",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "November 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "WA",
+        "destination":  "Olympia / Tumwater",
+        "county":  "Thurston",
+        "seasonBegin":  "December 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "WA",
+        "destination":  "Olympia / Tumwater",
+        "county":  "Thurston",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "WA",
+        "destination":  "Olympia / Tumwater",
+        "county":  "Thurston",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "WA",
+        "destination":  "Port Angeles / Port Townsend",
+        "county":  "Clallam / Jefferson",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "June 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "WA",
+        "destination":  "Port Angeles / Port Townsend",
+        "county":  "Clallam / Jefferson",
+        "seasonBegin":  "July 1",
+        "seasonEnd":  "August 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "WA",
+        "destination":  "Port Angeles / Port Townsend",
+        "county":  "Clallam / Jefferson",
+        "seasonBegin":  "September 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "WA",
+        "destination":  "Richland / Pasco",
+        "county":  "Benton / Franklin",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "WA",
+        "destination":  "Seattle",
+        "county":  "King",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "WA",
+        "destination":  "Seattle",
+        "county":  "King",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    },
+    {
+        "state":  "WA",
+        "destination":  "Spokane",
+        "county":  "Spokane",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "WA",
+        "destination":  "Tacoma",
+        "county":  "Pierce",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "WA",
+        "destination":  "Vancouver",
+        "county":  "Clark / Cowlitz / Skamania",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  86
+    },
+    {
+        "state":  "WI",
+        "destination":  "Madison",
+        "county":  "Dane",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "WI",
+        "destination":  "Madison",
+        "county":  "Dane",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "April 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "WI",
+        "destination":  "Madison",
+        "county":  "Dane",
+        "seasonBegin":  "May 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "WI",
+        "destination":  "Milwaukee",
+        "county":  "Milwaukee",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  80
+    },
+    {
+        "state":  "WI",
+        "destination":  "Sturgeon Bay",
+        "county":  "Door",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "October 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "WI",
+        "destination":  "Sturgeon Bay",
+        "county":  "Door",
+        "seasonBegin":  "November 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  80
+    },
+    {
+        "state":  "WI",
+        "destination":  "Sturgeon Bay",
+        "county":  "Door",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  80
+    },
+    {
+        "state":  "WV",
+        "destination":  "Charles Town",
+        "county":  "Jefferson",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "WV",
+        "destination":  "Charleston",
+        "county":  "Kanawha",
+        "seasonBegin":  "",
+        "seasonEnd":  "",
+        "mieRate":  68
+    },
+    {
+        "state":  "WY",
+        "destination":  "Cody",
+        "county":  "Park",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  74
+    },
+    {
+        "state":  "WY",
+        "destination":  "Cody",
+        "county":  "Park",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  74
+    },
+    {
+        "state":  "WY",
+        "destination":  "Jackson / Pinedale",
+        "county":  "Teton / Sublette",
+        "seasonBegin":  "October 1",
+        "seasonEnd":  "May 31",
+        "mieRate":  92
+    },
+    {
+        "state":  "WY",
+        "destination":  "Jackson / Pinedale",
+        "county":  "Teton / Sublette",
+        "seasonBegin":  "June 1",
+        "seasonEnd":  "September 30",
+        "mieRate":  92
+    }
+]
